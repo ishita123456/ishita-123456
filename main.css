@@ -1,0 +1,247 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #EFF5FF;
+}
+
+html{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-style{
+    background-color: #fff;
+    padding: 20px;
+}
+
+.navbrand-style{
+    font-family: 'Inter', sans-serif;
+    color: #010038 !important;
+    font-weight: 600;
+}
+
+.navitem-style{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: #7F88A9 !important;
+}
+
+.navitem-style:hover{
+    color: #394FE1 !important;
+}
+
+.navitem-style:active{
+    color: #394FE1 !important;
+}
+
+.activex{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: #394FE1 !important;
+}
+
+.navbutton-style{
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    font-size: 90%;
+    background-color: #394FE1;
+    border-color: #394FE1;
+    border-radius: 10px;
+}
+
+.navbutton-style:hover{
+    color: #fff;
+    background-color: rgb(37, 61, 223);
+    border-color: rgb(37, 61, 223);
+}
+
+.navbutton-style:focus{
+    color: #fff;
+    background-color: rgb(37, 61, 223);
+    border-color: rgb(37, 61, 223);
+}
+
+.navbutton-style:active{
+    color: #fff;
+    background-color: rgb(37, 61, 223);
+    border-color: rgb(37, 61, 223);
+}
+
+.searchbox{
+    border-radius: 10px;
+    font-family: 'Inter', sans-serif;
+    font-size: 90%;
+}
+
+#contribute-section{
+    padding: 8%;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: #FFF;
+}
+
+.contribute-card{
+    background-color: #FFF4DE;
+    border-radius: 20px;
+    padding: 4%;
+    padding-top:7%;
+    padding-bottom:7%;
+    text-align: center;
+    align-content: center;
+}
+
+.contribute-form{
+    border-radius: 10px;
+    font-family: 'Inter', sans-serif;
+    color: #7F88A9 !important;
+    width: 100%;
+    height: 50px !important;
+    margin-top: 6%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-width: 0.2;
+    z-index: 0;
+}
+
+.email-form{
+    position:relative;
+    width: 70%;
+    align-self: center;
+    align-content: center;
+}
+
+.email-button{
+    position: absolute;
+    bottom: 0%;
+    right: 1.5%;
+    font-size: 100%;
+    height: 100%;
+}
+
+
+
+#copyright-section{
+    padding-top: 1%;
+    padding-bottom: 0.3%;
+    background-color: #15104B;
+    text-align: center;
+    vertical-align: middle;
+}
+
+h1 {
+    font-family: serif;
+    color: black !important;
+    font-weight: 600;
+    font-size: 500%;
+}
+
+h2 {
+    font-family: 'Inter', sans-serif;
+    color: black !important;
+    font-weight: 600;
+    font-size: 200%;
+}
+h4 {
+    font-family: 'Inter', sans-serif;
+    color: white !important;
+    font-weight: 600;
+    font-size: 150%;
+}
+
+h3 {
+    font-family: 'Inter', sans-serif;
+    color: #394FE1 !important;
+    font-weight: 500;
+    font-size: 140%;
+}
+
+
+p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: #7F88A9 !important;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #91A7E2 !important;
+    opacity: 1 !important; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #91A7E2 !important;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: #91A7E2 !important;
+}
+
+@media screen and (max-width: 600px){
+    h1 {
+        font-size: 220%;
+    }
+    h2 {
+        font-size: 160%;
+    }
+    h3 {
+        font-size: 90%;
+    }
+    #footer-section h2{
+        font-size: 160%;
+    }
+    .footer-text h3{
+        font-size: 1rem;
+    }
+    p{
+        font-size: 90%;
+    }
+    .footer-form{
+        width: 70%;
+    }
+    .footer-text{
+        margin-top: 15%;
+    }
+    .contribute-form{
+        height: 40px !important;
+    }
+    nav .d-flex{
+        width: 0 !important;
+        height: 0 !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: none !important;
+    }
+    #logo{
+        height: 150px !important;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .footer-form {
+      width: 80vw;
+    }
+    .feedback-button{
+        position: absolute;
+        bottom: -15%;
+        left: 74%;
+        font-size: 120%;
+    }
+    .footer-text{
+        display: grid;
+        justify-content: center;
+    }
+    .col-3{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding: 1rem;
+    }
+    .col-3 h3{
+        width: 100%;
+    }
+    .col-3 p{
+        margin: .5rem;
+    }
+
+  }
